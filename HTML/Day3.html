@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="email">Enter Email ID:</label>
+        <input type="text" id="email" placeholder="Enter Email Address">
+        <br>
+        <br>
+        <label for="password">Enter Password:</label>
+        <input type="password" id="password" placeholder="Enter Password">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <br>
+    <form>
+        <fieldset>
+            <legend>HTML Form Dummy</legend>
+            <label for="datepicker">Choose date:</label>
+            <input type="date" id="datepicker">
+            <br>
+            <br>
+            <label for="selector1">Choose your dish:</label>
+            <select name="dishes" id="selector1">
+                <option value="maggi">Maggi</option>
+                <option value="kurkure">Kurkure</option>
+                <option value="chips">Chips</option>
+            </select>
+            <br>
+            <br>
+            <label for="textArea1"></label>
+            <textarea name="textArea1" id="textArea1" cols="30" rows="5" placeholder="enter text here..."></textarea>
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <form>
+        <label for="textfield1">TextField:</label>
+        <input type="text" name="textfield1" id="textfield1">
+        <br>
+        <br>
+        <label for="button1">Button:</label>
+        <input type="submit" name="button1" id="button1">
+        <br>
+        <br>
+        <label for="gender">Male</label>
+        <input type="radio" name="radio1" id="gender">
+        <label for="gender">Female</label>
+        <input type="radio" name="radio1" id="gender">
+        <label for="gender">Prefer not to say</label>
+        <input type="radio" name="radio1" id="gender">
+        <br>
+        <br>
+        <label for="language">English</label>
+        <input type="checkbox" name="checkbox1" id="language">
+        <label for="language">Hindi</label>
+        <input type="checkbox" name="checkbox1" id="language">
+        <br>
+        <br>
+        <label for="fileselect1">Upload:</label>
+        <input type="file" name="fileselect1" id="fileselect1">
+        <br>
+        <br>
+        <input type="image" name="imagebutton1" id="imagebutton1" width="30px" height="30px" alt="click here" src="data:image/png;base64,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">
+        <br>
+        <br>
+        <label for="datepicker1">Choose Date:</label>
+        <input type="date" name="datepicker1" id="datepicker1">
+    </form>
+</body>
+</html>
