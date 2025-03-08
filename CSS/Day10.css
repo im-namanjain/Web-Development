@@ -1,0 +1,34 @@
+.container{
+    border: 1px solid black;
+    position: relative;
+    height: 1500px;
+    background-color: beige;
+}
+
+img{
+    margin: 10px;
+}
+
+.image1{
+    position: sticky;
+    top: 100px;
+}
+
+.image2{
+    position: relative;
+    top: 100px;
+}
+
+.image3{
+    position: absolute;
+    top: 150px;
+}
+
+.image4{
+    position: fixed;
+}
+
+.box{
+    background-color: aquamarine;
+    height: 2000px;
+}
