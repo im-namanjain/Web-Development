@@ -1,0 +1,45 @@
+#img1{
+    float: right;
+    height: 250px;
+}
+
+#img2{
+    float: right;
+    height: 250px;
+    clear: right;
+}
+
+.box{
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 2px;
+    border: 1px solid black;
+    /* float: left; */
+}
+
+.item1{
+    float: right;
+}
+
+.item2{
+    float: right;
+}
+
+.item3{
+    float: right;
+}
+
+.container{
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
